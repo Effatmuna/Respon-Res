@@ -1,0 +1,61 @@
+.navbar-nav .nav-item a {
+  font-size: 15px;
+
+  color: white;
+}
+.navbar {
+  border-bottom: black 3px solid;
+  opacity: 0.8;
+}
+
+.up {
+  font-size: 70px;
+  color: tomato;
+}
+.fas {
+  color: white;
+  font-size: 25px;
+}
+#expert {
+  background: url("../img/cheese-burger.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  width: 100%;
+  min-height: 120vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#expert .home-inner {
+  padding-top: 120px;
+}
+
+.image-2 {
+  background: url("../img/back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.image-2 .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(230, 208, 208, 0);
+}
+.card-1 {
+  box-shadow: 2px 2px 3px 4px white;
+}
+.btn-inline {
+  font-weight: bold;
+  font-size: large;
+}
